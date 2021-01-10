@@ -10,53 +10,43 @@ public class Manufacturers {
     private List<ChildCompanies> childCompanies;
     private String reportSource;
 
-    public String getOfficePhoneNumber ()
-    {
+    public String getOfficePhoneNumber() {
         return officePhoneNumber;
     }
 
-    public void setOfficePhoneNumber (String officePhoneNumber)
-    {
+    public void setOfficePhoneNumber(String officePhoneNumber) {
         this.officePhoneNumber = officePhoneNumber;
     }
 
-    public String getSiteAddress ()
-    {
+    public String getSiteAddress() {
         return siteAddress;
     }
 
-    public void setSiteAddress (String siteAddress)
-    {
+    public void setSiteAddress(String siteAddress) {
         this.siteAddress = siteAddress;
     }
 
-    public String getSiteName ()
-    {
+    public String getSiteName() {
         return siteName;
     }
 
-    public void setSiteName (String siteName)
-    {
+    public void setSiteName(String siteName) {
         this.siteName = siteName;
     }
 
-    public String getSiteRegionState ()
-    {
+    public String getSiteRegionState() {
         return siteRegionState;
     }
 
-    public void setSiteRegionState (String siteRegionState)
-    {
+    public void setSiteRegionState(String siteRegionState) {
         this.siteRegionState = siteRegionState;
     }
 
-    public String getReportSource ()
-    {
+    public String getReportSource() {
         return reportSource;
     }
 
-    public void setReportSource (String reportSource)
-    {
+    public void setReportSource(String reportSource) {
         this.reportSource = reportSource;
     }
 

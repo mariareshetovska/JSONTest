@@ -7,7 +7,7 @@ public class Application {
     private InitialReporter initialReporter;
     private Device device;
 
-    public DeviceManufacturers getDeviceManufacturers() {
+    public DeviceManufacturers getDeviceManufacturers(){
         return deviceManufacturers;
     }
 
@@ -15,37 +15,36 @@ public class Application {
         this.deviceManufacturers = deviceManufacturers;
     }
 
-    public General getGeneral() {
+    public General getGeneral(){
         return general;
     }
 
-    public void setGeneral(General general) {
+    public void setGeneral(General general){
         this.general = general;
     }
 
-    public Manufacturers getManufacturers() {
+    public Manufacturers getManufacturers(){
         return manufacturers;
     }
 
-    public void setManufacturers(Manufacturers manufacturers) {
+    public void setManufacturers(Manufacturers manufacturers){
         this.manufacturers = manufacturers;
     }
 
-    public InitialReporter getInitialReporter() {
+    public InitialReporter getInitialReporter(){
         return initialReporter;
     }
 
-    public void setInitialReporter(InitialReporter initialReporter) {
+    public void setInitialReporter(InitialReporter initialReporter){
         this.initialReporter = initialReporter;
     }
 
-    public Device getDevice() {
+    public Device getDevice(){
         return device;
     }
 
-    public void setDevice(Device device) {
+    public void setDevice(Device device){
         this.device = device;
     }
-
 
 }
